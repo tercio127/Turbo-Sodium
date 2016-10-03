@@ -15,8 +15,8 @@ scssSource = 'scss/main.scss';
 gulp.task('scss', function() {
     return gulp.src(scssSource)
         .pipe(sass())
-//        .pipe(autoprefixer())
-//        .pipe(cleanCss())
+        .pipe(autoprefixer())
+        .pipe(cleanCss())
         .pipe(gulp.dest('build/css'))
 });
 
