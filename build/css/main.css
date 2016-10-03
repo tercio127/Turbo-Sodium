@@ -1590,7 +1590,12 @@ header.header .hs-form button {
 /*
  - D) HOME
  */
-.home .homeslider .slide {
+.homepage .homeslider .slide {
   position: relative;
   top: -20px;
   height: 100vh; }
+  .homepage .homeslider .slide .content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); }
