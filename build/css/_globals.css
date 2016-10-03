@@ -1,0 +1,2 @@
+body {
+  color: hubl_var("{{ $kolor }}", "red"); }

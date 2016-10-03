@@ -1,0 +1,16 @@
+$dev_version : true;
+
+@mixin hubl($str) {
+	/*== #{$str} ==*/		
+}
+
+@function hubl_var($var,$dev){
+	@if $dev_version == false {
+  		@return unquote($var);
+	} @else {
+		@return $dev;
+	}
+}
+
+@include hubl("{% set font_family = 'Arial' %}");
+$font_family : "Arial";
