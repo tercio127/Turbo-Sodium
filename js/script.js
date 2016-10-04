@@ -212,7 +212,7 @@ function skillsInit(){
             j.setPercent(i).draw();
             h.setPercent(y).draw();
             g.setPercent(x).draw();
-            f.setPercent(v).draw()
+            f.setPercent(v).draw();
         }
 
         });
@@ -369,9 +369,7 @@ function skillsInit(){
         cssEase: "linear"
     });
     var r = 0;
-    if ($(".skills").length > 0) {
-        b()
-    }
+
     var s = 0;
     if ($(".wrapper-bars").length > 0) {
         c()
@@ -393,9 +391,6 @@ function skillsInit(){
                 }
             }
         }
-        if ($(".skills").length > 0) {
-            b()
-        }
         if ($(".wrapper-bars").length > 0) {
             c()
         }
@@ -416,30 +411,12 @@ function skillsInit(){
             }
         }
     }
-    if ($(".skills").length > 0) {
-        b()
-    }
+
     if ($(".wrapper-bars").length > 0) {
         c()
     }
 
-    function b() {
-        var w = $(window).scrollTop();
-        var t = $(".skills").position().top;
-        var z = $(window).height();
-        var u = w + z;
-        var i = $(".skills .circle1").html();
-        var y = $(".skills .circle2").html();
-        var x = $(".skills .circle3").html();
-        var v = $(".skills .circle4").html();
-        if (u - 200 > t && r == 0) {
-            r = 1;
-            j.setPercent(i).draw();
-            h.setPercent(y).draw();
-            g.setPercent(x).draw();
-            f.setPercent(v).draw()
-        }
-    }
+
 
     function c() {
         var x = $(window).scrollTop();
