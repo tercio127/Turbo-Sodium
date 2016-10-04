@@ -622,3 +622,63 @@ height: 34px!important;
   50%  { opacity: .5; }
   100% { opacity: 1; }
 }
+
+.footer{
+    background-color: #393939;
+    height: 67px;
+    color:#fff;
+    position: relative;
+}
+    .footer .copy{
+        font-size: 15px;
+        color:#fff;
+        font-weight: 300;
+        line-height: 67px;
+        white-space: nowrap;
+
+    }
+    .footer .links{
+        text-align: right;
+        white-space: nowrap;
+    }
+        .footer .links a{
+            font-size: 15px;
+            color:#fff;
+            font-weight: 300;
+            line-height: 67px;
+            padding:0px 5px;
+            -webkit-transition: all 0.3s linear;
+            -o-transition: all 0.3s linear;
+            transition: all 0.3s linear;
+        }
+        .footer .links a:hover{
+            color:#ffc400;
+            text-decoration:none;
+            -webkit-transition: all 0.3s linear;
+            -o-transition: all 0.3s linear;
+            transition: all 0.3s linear;
+        }
+    .footer .scroll-top{
+        height: 67px;
+        width: 67px;
+        background-color: #ffc400;
+        position: absolute;
+        right: 0px;
+        bottom: 0px;
+        cursor:pointer;
+        text-align: center;
+    }
+        .footer .scroll-top i{
+            font-size: 44px;
+            color:#fff;
+            line-height: 67px;
+            -webkit-transition: all 0.3s linear;
+            -o-transition: all 0.3s linear;
+            transition: all 0.3s linear;
+        }
+    .footer .scroll-top:hover i{
+        line-height: 45px;
+        -webkit-transition: all 0.3s linear;
+        -o-transition: all 0.3s linear;
+        transition: all 0.3s linear;
+    }
