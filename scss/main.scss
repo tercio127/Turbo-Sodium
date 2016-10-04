@@ -3,6 +3,7 @@
 	Index:
 	- 0) HUBSPOT RESET STYLES
 	- 1) SLICK
+	- 2) ANIMATE.CSS
 	- A) VARIABLES
 	- B) GLOBALS STYLES
 	- C) MENU
@@ -21,6 +22,10 @@
 @import "slick";
 
 /*
+ - 2) ANIMATE.CSS
+*/
+@import "animate";
+/*
  - A) VARIABLES 
 */
 @import "variables";
@@ -38,9 +43,9 @@
 /*
  - D) HOME
  */
-@import "home"
+@import "home";
 
 /*
  - X) RESPONSIVE
  */
-@import "responsive"
+@import "responsive";
