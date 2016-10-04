@@ -1,15 +1,21 @@
 $(document).ready(function() {
+    //Fixed Menu
     fixedMenu();
+    //Scroll down in header
     headerScrollDown();
+    //Scroll up in footer
     footerScrollUp();
+
     if($("body.homepage").length>0){
+        //Homepage HeroSlider
         homeSliderInit();
+
+        //Homepage Services
         var brake_array = {};
         brake_array["1200"] = 4;
         brake_array["992"] = 3;
         brake_array["768"] = 2;    
         brake_array["469"] = 1; 
-
         rowModuleBreaker(".homepage .services",".box-services",brake_array,"first","last");
     }
 });
