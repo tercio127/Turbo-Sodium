@@ -1,13 +1,15 @@
 $(document).ready(function() {
-    homeSliderInit();
     fixedMenu();
-    if($(".homepage .services").length>0){    
-        var brake_array = {};
-        brake_array["1200"] = 4;
-        brake_array["992"] = 3;
-        brake_array["768"] = 2;    
-        brake_array["469"] = 1; 
-        rowModuleBreaker(".homepage .services","box-services",brake_array,"first","last");
+    if($("body.homepage").length>0){
+        homeSliderInit();
+
+
+            var brake_array = {};
+            brake_array["1200"] = 4;
+            brake_array["992"] = 3;
+            brake_array["768"] = 2;    
+            brake_array["469"] = 1; 
+            rowModuleBreaker(".homepage .services",".box-services",brake_array,"first","last");
     }
 });
 
@@ -98,6 +100,7 @@ function rowModuleBreaker(parent,css_selector,break_array,class_first_row,class_
                     $(e).parent().parent().remove();
                 }
             });
+            $(selector).find(css_selector).parent().attr("class","span"+(12/cols));
             $(".old_remove").remove();
             });
         }
