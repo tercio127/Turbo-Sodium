@@ -197,6 +197,7 @@
 	    }
 	}
 	.features{
+		margin-bottom:100px;
 		h2{
 			color:#ffc400;
 			font-weight: 600;
@@ -223,6 +224,31 @@
 	    min-height: 475px;
 	    padding-bottom: 40px;
 	    text-align: center;
+	    background-color:#ffc400;
+		.slick-arrow{
+			position:absolute;
+			top:50%;
+			transform:translateY(-50%);	
+			z-index:1;
+			&.slick-prev{
+				left:48px;
+				&:before{
+					content:"\f104";
+					font-family:"FontAwesome";
+					color:#fff;
+					font-size:60px;
+				}
+			}
+			&.slick-next{
+				right:48px;
+				&:before{
+					content:"\f105";
+					font-family:"FontAwesome";
+					color:#fff;
+					font-size:60px;
+				}	
+			}
+		}
 	    h2{
 			font-size: 36px;
 			margin-top: 100px;
