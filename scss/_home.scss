@@ -1,3 +1,5 @@
+
+
 .homepage{
 	.homeslider{
 		.mask{
@@ -8,22 +10,22 @@
 			position:absolute;
 			top:50%;
 			transform:translateY(-50%);	
-		}
-		.slick-prev{
-			left:48px;
-			:before{
-				content:"\f104";
-				font-family:"FontAwesome";
-				color:#fff;
+			&.slick-prev{
+				left:48px;
+				&:before{
+					content:"\f104";
+					font-family:"FontAwesome";
+					color:#fff;
+				}
 			}
-		}
-		.slick-next{
-			right:48px;
-			:before{
-				content:"\f105";
-				font-family:"FontAwesome";
-				color:#fff;
-			}	
+			&.slick-next{
+				right:48px;
+				&:before{
+					content:"\f105";
+					font-family:"FontAwesome";
+					color:#fff;
+				}	
+			}
 		}
 		.slide{
 			position: relative;
