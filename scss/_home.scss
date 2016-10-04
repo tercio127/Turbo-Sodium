@@ -196,4 +196,25 @@
 			}
 	    }
 	}
+	.features{
+		h2{
+			color:#ffc400;
+			font-weight: 600;
+			margin-top: 50px;
+		}
+		.feature{
+			margin-top: 70px; 
+			h3{
+				font-size: 24px;
+				color:#626262;
+				font-weight: 600;
+				margin-bottom: 10px;
+		        margin-top:0px;
+			}
+			div.content{
+				font-size: 16px;
+				color:#626262;
+			}
+		}
+	} 
 }

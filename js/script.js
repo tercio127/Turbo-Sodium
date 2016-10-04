@@ -17,6 +17,12 @@ $(document).ready(function() {
         brake_array["768"] = 2;    
         brake_array["469"] = 1; 
         rowModuleBreaker(".homepage .services",".box-services",brake_array,"first","last");
+
+        //Homepage Features
+        var brake_array = {};
+        brake_array["768"] = 2;    
+        brake_array["469"] = 1; 
+        rowModuleBreaker(".homepage .features",".feature",brake_array,"first","last");
     }
 });
 
