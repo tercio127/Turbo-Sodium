@@ -5,7 +5,8 @@ $(document).ready(function() {
     headerScrollDown();
     //Scroll up in footer
     footerScrollUp();
-
+    //WOW animation init
+    wowInit();
     if($("body.homepage").length>0){
         //Homepage HeroSlider
         homeSliderInit();
@@ -28,7 +29,12 @@ $(document).ready(function() {
         skillsInit();
     }
 });
-
+function wowInit(){
+        wow = new WOW({
+            mobile: false
+        });
+        wow.init();
+}
 function headerScrollDown(){
     $(".mouse_scroll").click(function() {
         $("html, body").animate({
