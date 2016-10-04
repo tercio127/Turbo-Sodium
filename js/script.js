@@ -23,6 +23,9 @@ $(document).ready(function() {
         brake_array["768"] = 2;    
         brake_array["469"] = 1; 
         rowModuleBreaker(".homepage .features",".feature",brake_array,"first","last");
+
+        //Skills animation
+        skillsInit();
     }
 });
 
@@ -138,17 +141,8 @@ function rowModuleBreaker(parent,css_selector,break_array,class_first_row,class_
     });
     $(window).resize();
 }
-
-    if (window.innerWidth > 767) {
-        wow = new WOW({
-            mobile: false
-        });
-        wow.init()
-    } else {
-        $(".wow").css("visibility", "visible").css("display", "block").removeClass("wow")
-    }
-    if ($(".skills").length > 0) {
-        var j = $(".loader1").ClassyLoader({
+function skillsInit(){
+            var j = $(".loader1").ClassyLoader({
             speed: 30,
             diameter: 80,
             roundedLine: true,
@@ -203,7 +197,36 @@ function rowModuleBreaker(parent,css_selector,break_array,class_first_row,class_
             start: "top",
             remainingLineColor: "#636362",
             animate: false
-        })
+        });
+        $(window).scroll(function(){
+                    var w = $(window).scrollTop();
+        var t = $(".skills").position().top;
+        var z = $(window).height();
+        var u = w + z;
+        var i = $(".skills .circle1").html();
+        var y = $(".skills .circle2").html();
+        var x = $(".skills .circle3").html();
+        var v = $(".skills .circle4").html();
+        if (u - 200 > t && r == 0) {
+            r = 1;
+            j.setPercent(i).draw();
+            h.setPercent(y).draw();
+            g.setPercent(x).draw();
+            f.setPercent(v).draw()
+        }
+
+        });
+
+}
+    if (window.innerWidth > 767) {
+        wow = new WOW({
+            mobile: false
+        });
+        wow.init()
+    } else {
+        $(".wow").css("visibility", "visible").css("display", "block").removeClass("wow")
+    }
+    if ($(".skills").length > 0) {
     }
     if (($("#counter").length > 0)) {
         var n = $("#counter .counter-box .counter1 span").text();
