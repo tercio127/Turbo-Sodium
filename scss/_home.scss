@@ -54,4 +54,41 @@
 		    }
 		}
 	}
+	.services{
+ 	   overflow: hidden;
+ 	   .box-services{
+			margin-top: 100px;
+			text-align: center;
+			.widget-type-rich_text a{
+ 			   font-weight: 400 !important;
+			}
+			.ico{
+				width:120px;
+				height: 120px;
+				border-radius: 50%;
+				text-align: center;
+				margin:auto;
+				border:solid 2px #ffc400;
+				i{
+					color:#ffc400;
+					font-size: 60px;
+					line-height: 120px;
+	 			}
+	 		}
+			h3{
+				font-size: 20px;
+				font-weight: normal;
+				margin:20px 0px;
+				color:#ffc400;
+			}	 		
+		.desc{
+			font-size: 16px;
+			font-weight: 300;
+			color:#626262;
+			margin-bottom: 85px;
+			padding: 0px 15px;
+		}
+	
+ 		}
+ 	}
 }
