@@ -79,6 +79,14 @@ functiom mobileMenuInit(){
         prependTo: "header.header",
         label: ""
     });
+    $(".slicknav_btn").click(function(i) {
+        console.log("test");
+        if ($("header.header.fixed-small").length > 0) {
+            $("header.header").removeClass("fixed-small")
+        } else {
+            $("header.header").addClass("fixed-small")
+        }
+    });
 }
 function homeSliderInit(){
     $(".main .homeslider > span").slick({
