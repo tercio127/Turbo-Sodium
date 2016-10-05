@@ -11,6 +11,9 @@ $(document).ready(function() {
         //Homepage HeroSlider
         homeSliderInit();
 
+        //Homepage testimonials
+        testimonialsSliderInit();
+
         //Homepage Services
         var brake_array = {};
         brake_array["1200"] = 4;
@@ -65,7 +68,7 @@ function testimonialsSliderInit(){
             settings: {
                 dots:true,
                 arrows: false,
-        }
+            }
         }]
         });
 }
