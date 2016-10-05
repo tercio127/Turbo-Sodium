@@ -59,8 +59,17 @@ function homeSliderInit(){
         infinite: true,
         speed: 500,
         fade: true,
-        cssEase: "linear"
+        cssEase: "linear",
+        responsive: [
+        {
+          breakpoint: 767,
+            settings: {
+                dots:true,
+                arrows: false,
+        }
+        }]
     });
+
 }
 
 function fixedMenu(){
