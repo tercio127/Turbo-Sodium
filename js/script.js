@@ -52,7 +52,23 @@ function footerScrollUp(){
     });
 
 }
-
+function testimonialsSliderInit(){
+    $('.slick-testimonial > div > span').slick({
+        dots: false,
+        infinite: true,
+        autoplay: true,
+        autoplaySpeed: 8000,
+        speed: 1000,
+        responsive: [
+        {
+          breakpoint: 767,
+            settings: {
+                dots:true,
+                arrows: false,
+        }
+        }]
+        });
+}
 function homeSliderInit(){
     $(".main .homeslider > span").slick({
         dots: false,
