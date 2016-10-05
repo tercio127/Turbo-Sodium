@@ -224,14 +224,7 @@ function skillsInit(){
         });
 
 }
-    if (window.innerWidth > 767) {
-        wow = new WOW({
-            mobile: false
-        });
-        wow.init()
-    } else {
-        $(".wow").css("visibility", "visible").css("display", "block").removeClass("wow")
-    }
+
     if ($(".skills").length > 0) {
     }
     if (($("#counter").length > 0)) {
