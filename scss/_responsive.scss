@@ -89,6 +89,9 @@
 }
 /* Landscape phones and portrait tablets */
 @media (max-width: 767px) {
+    .homepage .homeslider .slide .content p{
+        font-size:15px;
+    }
      .hs_cos_wrapper_type_custom_widget .span4 {
         margin-right: 0;
     }
