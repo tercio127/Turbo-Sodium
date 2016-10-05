@@ -4,6 +4,23 @@
 			background: rgba(0,0,0,0.36);
 			height:100%;
 		}
+		.slick-dots {
+		    bottom: 30px;
+		    width: 100%;
+		    list-style: none;
+		    text-align: center;
+		    li{
+		    	button:before{
+		    		font-size:26px;
+		    	}
+		    	&.slick-active{
+					button:before{
+						color:#fff;
+					}
+
+		    	}
+		    }
+		}
 		.slick-arrow{
 			position:absolute;
 			top:50%;
