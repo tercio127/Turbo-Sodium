@@ -74,7 +74,7 @@ function testimonialsSliderInit(){
         }]
         });
 }
-functiom mobileMenuInit(){
+function mobileMenuInit(){
     $("#menu").slicknav({
         prependTo: "header.header",
         label: ""
