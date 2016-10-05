@@ -219,10 +219,6 @@
         }
     }
 
-
-    .mouse_scroll{
-        display:none;
-    }
     #hs-link-logo{
         img{
             width:188px!important;
@@ -527,6 +523,10 @@
 	.search-form{
 		display: none;
 	}    
+    .mouse_scroll{
+        display:none!important;
+    }
+
 }
 
 /* Portrait phones and smaller */
