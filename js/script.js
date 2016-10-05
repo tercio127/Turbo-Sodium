@@ -1,6 +1,8 @@
 $(document).ready(function() {
     //Fixed Menu
     fixedMenu();
+    //Mobile Menu
+    mobileMenuInit();
     //Scroll down in header
     headerScrollDown();
     //Scroll up in footer
@@ -71,6 +73,12 @@ function testimonialsSliderInit(){
             }
         }]
         });
+}
+functiom mobileMenuInit(){
+    $("#menu").slicknav({
+        prependTo: "header.header",
+        label: ""
+    });
 }
 function homeSliderInit(){
     $(".main .homeslider > span").slick({
