@@ -202,6 +202,8 @@ function skillsInit(){
             lineColor: "#ffffff",
             percentage: 0,
             lineWidth: 5,
+            width:150,
+            height:150,
             start: "top",
             remainingLineColor: "#636362",
             animate: false
@@ -216,6 +218,8 @@ function skillsInit(){
             lineColor: "#ffffff",
             percentage: 0,
             lineWidth: 5,
+            width:150,
+            height:150,
             start: "top",
             remainingLineColor: "#636362",
             animate: false
@@ -230,6 +234,8 @@ function skillsInit(){
             lineColor: "#ffffff",
             percentage: 0,
             lineWidth: 5,
+            width:150,
+            height:150,
             start: "top",
             remainingLineColor: "#636362",
             animate: false
@@ -244,6 +250,8 @@ function skillsInit(){
             lineColor: "#ffffff",
             percentage: 0,
             lineWidth: 5,
+            width:150,
+            height:150,
             start: "top",
             remainingLineColor: "#636362",
             animate: false
