@@ -75,8 +75,8 @@ function testimonialsSliderInit(){
         });
 }
 function mobileMenuInit(){
-    $("#menu").slicknav({
-        prependTo: "header.header .hs-menu-flow-horizontal > ul",
+    $("header.header .hs-menu-flow-horizontal > ul").slicknav({
+        prependTo: "header.header",
         label: "",
         allowParentLinks:true
     });
