@@ -510,6 +510,7 @@
 	.footer {
         height: initial;
         line-height: 34px;
+        overflow-x: hidden;
         .links {
     	    text-align: left;
     	    white-space: nowrap;
