@@ -193,6 +193,7 @@ function rowModuleBreaker(parent,css_selector,break_array,class_first_row,class_
     $(window).resize();
 }
 function skillsInit(){
+    var r = 0;
             var j = $(".loader1").ClassyLoader({
             speed: 30,
             diameter: 80,
