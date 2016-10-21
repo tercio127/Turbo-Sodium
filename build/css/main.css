@@ -6022,6 +6022,8 @@ header.header .hs-form button {
   -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
   z-index: 1;
+  width: auto;
+  height: auto;
 }
 
 .homepage .testimonials .slick-arrow.slick-prev {

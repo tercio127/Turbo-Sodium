@@ -248,6 +248,8 @@
 			top:50%;
 			transform:translateY(-50%);	
 			z-index:1;
+			width:auto;
+			height:auto;
 			&.slick-prev{
 				left:48px;
 				&:before{
