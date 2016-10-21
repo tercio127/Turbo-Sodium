@@ -5611,7 +5611,7 @@ header.header #menu ul li.hs-menu-depth-1.hs-item-has-children > a:after {
 }
 
 .hs-menu-wrapper.hs-menu-flow-horizontal > ul li.hs-item-has-children:hover > ul.hs-menu-children-wrapper {
-  top: 0px;
+  top: 10px;
 }
 
 header.header #menu ul li.hs-menu-depth-1 > ul {
