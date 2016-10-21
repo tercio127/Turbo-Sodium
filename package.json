@@ -1,18 +1,18 @@
 {
-  "name": "hubspot-template-customizer-v2",
+  "name": "hubspot-template-kit",
   "version": "0.1.0",
-  "description": "Hubspot template customizer version 2",
+  "description": "Hubspot template kit",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://Svantetic@bitbucket.org/clickray-eu/customizer-v2.git"
+    "url": "git+https://Svantetic@bitbucket.org/clickray-eu/template-starter-kit.git"
   },
   "author": "svantetic",
   "license": "ISC",
-  "homepage": "https://bitbucket.org/clickray-eu/customizer-v2#readme",
+  "homepage": "https://bitbucket.org/clickray-eu/template-starter-kit/#readme",
   "devDependencies": {
     "babel-cli": "^6.14.0",
     "babel-preset-es2015": "^6.14.0",
@@ -26,8 +26,9 @@
     "gulp-scss": "^1.4.0",
     "gulp-uglify": "^2.0.0",
     "gulp-watch": "^4.3.9",
-    "gulp" : "latest",
-    "jquery": "*"
+    "gulp": "latest",
+    "jquery": "*",
+    "gulp-group-css-media-queries" : "^1.2.0"
   },
   "babel": {
     "presets": [

@@ -1,7 +1,7 @@
 .homepage{
- 
-		.mask{
-			background: rgba(0,0,0,0.36);
+	.homeslider{ 
+		&.mask{ 
+			background-color: rgba(0,0,0,0.36);
 			height:100%;
 		}
 		.slick-dots {
@@ -24,6 +24,8 @@
 		.slick-arrow{
 			position:absolute;
 			top:50%;
+			width:auto;
+			height:auto;
 			transform:translateY(-50%);	
 			z-index:1;
 			&.slick-prev{

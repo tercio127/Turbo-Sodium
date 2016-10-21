@@ -1,16 +1,24 @@
 $dev_version : true;
 
-@mixin hubl($str) {
-	/*== #{$str} ==*/		
+/** Metoda dodająca zmienne 'habowe' **/
+
+@mixin hubl($var_name,$var_value) {
+	/*=={% set #{$var_name} = #{$var_value} %}==*/		
 }
+
+/** Metoda zmieniajace zmienne habowe na sass i odwrotnie, zależne od zmiennej dev_version **/
 
 @function hubl_var($var,$dev){
 	@if $dev_version == false {
-  		@return unquote($var);
+  		@return unquote('{{'+$var+'}}');
 	} @else {
 		@return $dev;
 	}
 }
 
-@include hubl("{% set font_family = 'Arial' %}");
+@include hubl("font-family","10px");
+
 $font_family : "Arial";
+$font_size : 10px;
+$main_color:  '#aaa';
+
