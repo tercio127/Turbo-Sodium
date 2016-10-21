@@ -8,7 +8,7 @@ var autoprefixer = require('gulp-autoprefixer');
 var gcmq = require('gulp-group-css-media-queries');
 var jsSource, scssSource;
 
-scssSource = 'scss/template.scss';
+scssSource = 'scss/main.scss';
 jsSource = ['js/template.js','js/*/*.js','js/*/*/*.js'];
 
 

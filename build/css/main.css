@@ -5762,6 +5762,8 @@ header.header .hs-form button {
 .homepage .homeslider .slick-arrow {
   position: absolute;
   top: 50%;
+  width: auto;
+  height: auto;
   -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
   z-index: 1;
